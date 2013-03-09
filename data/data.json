@@ -1,14 +1,14 @@
 [
 {
-  "name" : "Barry",
-  "linkText" : "Barry's link",
-  "linkUrl" : "Barry's url",
-  "copy" : "Barry copy : Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  "name" : "Robyn",
+  "linkText" : "@robynexton",
+  "linkUrl" : "https://twitter.com/robynexton",
+  "copy" : "Equality.</br>Empowerment.</br>Hearing the female voice at the same volume as the voice of men."
 },
 {
-  "name" : "Sally",
-  "linkText" : "Sally's link",
-  "linkUrl" : "Sally's url",
-  "copy" : "Sally copy : Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  "name" : "Magdalena",
+  "linkText" : "@mykron",
+  "linkUrl" : "https://twitter.com/mykron",
+  "copy" : "(Swedish def) Feminism betyder lika möjligheter i samhället för både kvinnor och män. Women are people too. End of."
 }
 ]
