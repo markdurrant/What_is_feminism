@@ -68,12 +68,15 @@ body{
   line-height: 1;
   color: $paper;
   background: $brand;
+
+  a{
+    text-decoration: none;
+  }
 }
 
 .title{
   margin: 0;
   color: $paper;
-  text-decoration: none;
 }
 
 .f-is-list{
