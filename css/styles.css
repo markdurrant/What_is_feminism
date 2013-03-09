@@ -385,8 +385,8 @@ table {
 
 /* line 4, ../sass/_layout.scss */
 .wrap {
-  margin: 0 auto;
-  width: 90%;
+  margin: 1em auto 0;
+  width: 80%;
   max-width: 38em;
 }
 
