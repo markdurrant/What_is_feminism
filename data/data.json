@@ -1,0 +1,14 @@
+[
+{
+  "name" : "Barry",
+  "linkText" : "Barry's link",
+  "linkUrl" : "Barry's url",
+  "copy" : "Barry copy : Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+},
+{
+  "name" : "Sally",
+  "linkText" : "Sally's link",
+  "linkUrl" : "Sally's url",
+  "copy" : "Sally copy : Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+}
+]

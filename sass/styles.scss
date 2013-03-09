@@ -74,8 +74,12 @@ body{
   margin: 0;
 }
 
-.f-is-item{
+.f-is-list{
   margin: 2em 0;
+  position: relative;
+}
+
+.f-is-item{
 }
 
 .f-is{
@@ -108,6 +112,7 @@ body{
 
 .name{
   display: inline;
+  margin-right: .75em;
 }
 
 .linky{

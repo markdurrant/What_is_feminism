@@ -393,7 +393,7 @@ table {
 /* line 10, ../sass/_layout.scss */
 .wrap {
   margin: 1em auto;
-  padding-bottom: 8em;
+  padding-bottom: 4em;
 }
 
 /* line 15, ../sass/_layout.scss */
@@ -582,61 +582,63 @@ body {
 }
 
 /* line 77, ../sass/styles.scss */
-.f-is-item {
+.f-is-list {
   margin: 2em 0;
+  position: relative;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 .f-is {
   font-style: italic;
 }
-/* line 85, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 .f-is:before, .f-is:after {
   font-size: 1.5em;
   display: inline-block;
   line-height: .5;
   color: #ff6a00;
 }
-/* line 92, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .f-is:before {
   content: "“";
   margin: 0 0.1em 0 -0.5em;
 }
-/* line 97, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 .f-is:after {
   content: "”";
   margin: 0 0 0 .1em;
 }
 
-/* line 104, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .name,
 .linky {
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 109, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 .name {
   display: inline;
+  margin-right: .75em;
 }
 
-/* line 115, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .linky:after {
   content: " »";
 }
 
-/* line 120, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 .more {
   float: right;
   font-weight: bold;
   letter-spacing: .05em;
 }
-/* line 125, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 .more:after {
   content: " »";
 }
 
-/* line 130, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 .about {
   background: #ff6a00;
   font-weight: bold;
@@ -656,7 +658,7 @@ body {
   border-radius: 1em;
   color: white;
 }
-/* line 147, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 .about:hover {
   color: white;
   background: #d95a00;
