@@ -383,16 +383,26 @@ table {
   border-spacing: 0;
 }
 
-/* line 4, ../sass/_layout.scss */
-.wrap {
-  margin: 1em auto 0;
+/* line 5, ../sass/_layout.scss */
+.wrap,
+.inner-wrap {
   width: 80%;
   max-width: 38em;
 }
 
+/* line 10, ../sass/_layout.scss */
+.wrap {
+  margin: 1em auto 0;
+}
+
+/* line 14, ../sass/_layout.scss */
+.inner-wrap {
+  margin: 0 auto;
+}
+
 /* line 4, ../sass/_typography.scss */
 body {
-  font-size: 1.0625em;
+  font-size: 1.125em;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 1.4;
 }
@@ -409,7 +419,7 @@ ul,
 ol,
 blockquote,
 pre {
-  margin: 0 0 .6em 0;
+  margin: 0 0 1.6em 0;
 }
 
 /* line 24, ../sass/_typography.scss */
@@ -443,32 +453,31 @@ ul {
 
 /* line 48, ../sass/_typography.scss */
 a {
-  color: #0044cc;
-  font-weight: bolder;
+  color: #ff6a00;
 }
-/* line 52, ../sass/_typography.scss */
+/* line 51, ../sass/_typography.scss */
 a:hover {
-  color: #003399;
+  color: #cc5500;
 }
 
-/* line 57, ../sass/_typography.scss */
+/* line 56, ../sass/_typography.scss */
 blockquote {
   margin: 0;
   padding: 0 2em;
   border-left: 0.2em solid black;
   font-style: italic;
 }
-/* line 63, ../sass/_typography.scss */
+/* line 62, ../sass/_typography.scss */
 blockquote p:before {
   margin: 0 0.2em 0 -0.6em;
   content: "“";
 }
-/* line 68, ../sass/_typography.scss */
+/* line 67, ../sass/_typography.scss */
 blockquote p:after {
   content: "”";
 }
 
-/* line 73, ../sass/_typography.scss */
+/* line 72, ../sass/_typography.scss */
 p code {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -480,7 +489,7 @@ p code {
   background-color: #f2f2f2;
 }
 
-/* line 81, ../sass/_typography.scss */
+/* line 80, ../sass/_typography.scss */
 pre {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -492,7 +501,7 @@ pre {
   color: white;
 }
 
-/* line 89, ../sass/_typography.scss */
+/* line 88, ../sass/_typography.scss */
 hr {
   margin: 2em 0;
   border: 0;
@@ -507,9 +516,9 @@ hr {
   -o-border-radius: 0.2em;
   border-radius: 0.2em;
   display: inline-block;
-  padding: .4em .6em;
+  padding: .4em .6em .45em;
   border: 0;
-  background-color: black;
+  background-color: #ff6a00;
   color: white;
   text-decoration: none;
   font-weight: normal;
@@ -517,25 +526,72 @@ hr {
 }
 /* line 16, ../sass/_buttons.scss */
 .btn:hover {
-  background-color: #4d4d4d;
+  background-color: #ffc499;
   color: white;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 .text-list {
   list-style: disc;
   padding-left: 1em;
 }
 
-/* line 37, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 41, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 body {
   background-color: white;
   color: black;
+}
+
+/* line 54, ../sass/styles.scss */
+.site-header {
+  padding: .5em 0 .1em;
+  color: white;
+  background: #ff6a00;
+}
+
+/* line 64, ../sass/styles.scss */
+.f-is {
+  font-style: italic;
+}
+/* line 68, ../sass/styles.scss */
+.f-is:before, .f-is:after {
+  font-size: 1.5em;
+  display: inline-block;
+  line-height: .5;
+  color: #ff6a00;
+}
+/* line 75, ../sass/styles.scss */
+.f-is:before {
+  content: "“";
+  margin: 0 0.1em 0 -0.5em;
+}
+/* line 80, ../sass/styles.scss */
+.f-is:after {
+  content: "”";
+  margin: 0 0 0 .1em;
+}
+
+/* line 86, ../sass/styles.scss */
+.more {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+
+/* line 93, ../sass/styles.scss */
+.site-footer {
+  background: #e6e6e6;
+  margin-top: 4em;
+}
+/* line 97, ../sass/styles.scss */
+.site-footer .inner-wrap {
+  padding: .5em 0;
 }

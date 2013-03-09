@@ -2,7 +2,7 @@
 // §TYPOGRAPHY
 //===============================================================================
 %type_body{ 
-  font-size: 1.0625em;
+  font-size: 1.125em;
   font-family: $body-font;
   line-height: 1.4;
 }
@@ -18,7 +18,7 @@ ul,
 ol,
 blockquote,
 pre{
-  margin: 0 0 .6em 0;
+  margin: 0 0 1.6em 0;
 }
 
 h1{
@@ -47,7 +47,6 @@ ul{
 
 a{
   color: $link-color;
-  font-weight: bolder;
 
   &:hover{
     color: $link-hover-color;  

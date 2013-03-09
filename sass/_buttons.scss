@@ -5,16 +5,16 @@
   @include border-radius(.2em);
   
   display: inline-block;
-  padding: .4em .6em;
+  padding: .4em .6em .45em;
   border: 0;
-  background-color: $ink;
+  background-color: $brand;
   color: $paper;
   text-decoration: none;
   font-weight: normal;
   line-height: 1;
 
   &:hover{
-    background-color: lighten($ink, 30);
+    background-color: lighten($brand, 30);
     color: $paper;
   }
 }
