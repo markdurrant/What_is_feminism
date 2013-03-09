@@ -579,66 +579,70 @@ body {
 /* line 73, ../sass/styles.scss */
 .title {
   margin: 0;
+  color: white;
+  text-decoration: none;
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 .f-is-list {
   margin: 2em 0;
   position: relative;
 }
 
-/* line 85, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .f-is {
   font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.3;
 }
-/* line 89, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .f-is:before, .f-is:after {
   font-size: 1.5em;
   display: inline-block;
   line-height: .5;
   color: #ff6a00;
 }
-/* line 96, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 .f-is:before {
   content: "“";
-  margin: 0 0.1em 0 -0.6em;
+  margin: 0 0.1em 0 -0.5em;
 }
-/* line 101, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 .f-is:after {
   content: "”";
   margin: 0 0 0 .1em;
 }
 
-/* line 108, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .name,
 .linky {
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 113, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .name {
   display: inline;
   margin-right: .75em;
 }
 
-/* line 120, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .linky:after {
   content: " »";
 }
 
-/* line 125, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 .more {
   float: right;
   font-weight: bold;
   letter-spacing: .05em;
 }
-/* line 130, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 .more:after {
   content: " »";
 }
 
-/* line 135, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 .about {
   background: #ff6a00;
   font-weight: bold;
@@ -658,7 +662,7 @@ body {
   border-radius: 1em;
   color: white;
 }
-/* line 152, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 .about:hover {
   color: white;
   background: #d95a00;
