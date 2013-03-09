@@ -6,7 +6,7 @@ $(document).ready(print);
 $(".more").click(print);
 
 function print(){
-  $.getJSON('../data/data.json',function(data){
+  $.getJSON('data/data.json',function(data){
     var rand = Math.floor(Math.random()*data.length);
 
     $('.f-is-list').empty()
