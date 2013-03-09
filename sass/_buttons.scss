@@ -1,0 +1,20 @@
+//===============================================================================
+// §BUTTONS
+//===============================================================================
+.btn{
+  @include border-radius(.2em);
+  
+  display: inline-block;
+  padding: .4em .6em;
+  border: 0;
+  background-color: $ink;
+  color: $paper;
+  text-decoration: none;
+  font-weight: normal;
+  line-height: 1;
+
+  &:hover{
+    background-color: lighten($ink, 30);
+    color: $paper;
+  }
+}

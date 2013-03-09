@@ -1,0 +1,13 @@
+# General
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+# Sass stuff
+*.sassc
+.sass-cache
+
+# Notes
+notes.md
