@@ -1,2 +1,2 @@
 // fit header to width
-jQuery(".title").fitText(.66);
+jQuery(".title").fitText(.67);

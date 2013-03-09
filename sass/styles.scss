@@ -2,7 +2,7 @@
 // §VARIABLES
 //===============================================================================
 $paper: hsl(0, 0, 100);
-$ink: hsl(0, 0, 0);
+$ink: hsl(25, 10, 20);
 $brand: hsl(25, 100, 50);
 
 $body-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -33,6 +33,12 @@ $footer: hsl(0, 0, 90);
   padding-left: 1em;
 }
 
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 //===============================================================================
 // §GLOBAL-STYLES
 //===============================================================================
@@ -48,17 +54,28 @@ body{
   color: $ink;
 }
 
+html,
+body{
+  height: 100%;
+  margin: 0;
+}
+
 //===============================================================================
 // §DEV-STYLES
 //===============================================================================
 .site-header{
-  padding: .5em 0 .1em;
+  padding: .5em 0 .6em;
+  line-height: 1;
   color: $paper;
   background: $brand;
 }
 
 .title{
+  margin: 0;
+}
 
+.f-is-item{
+  margin: 2em 0;
 }
 
 .f-is{
@@ -83,18 +100,52 @@ body{
   }
 }
 
-.more{
-  width: 100%;
-  text-align: center;
-  font-weight: 600;
-  letter-spacing: .05em;
+.name,
+.linky{
+  font-style: italic;
+  font-weight: bold;
 }
 
-.site-footer{
-  background: $footer;
-  margin-top: 4em;
+.name{
+  display: inline;
+}
 
-  .inner-wrap{
-    padding: .5em 0;
+.linky{
+
+  &:after{
+    content: " »";
+  }
+}
+
+.more{
+  float: right;
+  font-weight: bold;
+  letter-spacing: .05em;
+
+  &:after{
+    content: " »";
+  }
+}
+
+.about{
+  background: $brand;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  height: 1.2em;
+  width: 1.2em;
+  padding: 0 .35em;
+  line-height: 1.3em;
+
+  position: fixed;
+  bottom: .5em;
+  right: .5em;
+
+  @include border-radius(1em);
+  color: $paper;
+
+  &:hover{
+    color: $paper;
+    background: darken($brand, 7.5);
   }
 }

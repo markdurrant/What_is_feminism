@@ -14,7 +14,11 @@
   line-height: 1;
 
   &:hover{
-    background-color: lighten($brand, 30);
+    background-color: darken($brand, 7.5);
     color: $paper;
+  }
+
+  &:active{
+    background-color: darken($brand, 15);
   }
 }
