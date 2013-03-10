@@ -13,7 +13,7 @@
   <!-- livereload -->
 
   <script>
-  // document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
   </script> 
 
 </head>
@@ -22,12 +22,19 @@
   <header class="site-header">
     <div class="inner-wrap">
 
-      <a href="index.html">
-        <h1 class="title">Feminism is...</h1>
-      </a>
+      <h1 class="title">Feminism is...</h1>
 
     </div> <!-- end .inner-wrap -->
   </header>
+
+  <div class="sub-head">
+    <div class="inner-wrap">
+
+      <h2>Exploring notions of feminism by asking the simple question, feminism is?</h2>
+      <h3>Produced as part of the WOW hackathon in conjunction with the Women Of the World festival 2013</h3>
+
+    </div>
+  </div>
 
   <div class="wrap">
 
@@ -36,15 +43,78 @@
 
     <div class="clearfix">
       <!-- see another answer -->
-      <button class="more btn">See another answer</button>
+      <button class="more btn">view another response &#9656;</button>
     </div>
 
     <!-- link to answering the question (disabled for now) -->
     <!-- <a href="" class="answer"></a> -->
 
-  </div> <!-- end .wrap -->
+    <hr>
 
-  <a href="about.html" class="about">?</a>
+    <h2 class="sub-title">What is feminism to you?</h2>
+
+
+    <!-- google form output -->
+    <form action="https://docs.google.com/forms/d/1-zsnC4_h3kRfJMjNEiDtDbNZmsSz-5aQQGcvdYp0HLg/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+
+      <div class="errorbox-good">
+        <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+          <div class="ss-form-entry">
+            <label class="ss-q-item-label" for="entry_110894140">
+              <div class="ss-q-title">Feminism is… (maximum 50 words)
+            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+            <span class="ss-required-asterisk">*</span></div>
+            <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+            </label>
+            <textarea name="entry.110894140" rows="8" cols="0" class="ss-q-long" id="entry_110894140" dir="auto" aria-required="true"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="errorbox-good">
+        <div dir="ltr" class="ss-item  ss-text">
+          <div class="ss-form-entry">
+            <label class="ss-q-item-label" for="entry_588579808">
+              <div class="ss-q-title">Your name (leave blank to remain anonymous)</div>
+              <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+            </label>
+            <input type="text" name="entry.588579808" value="" class="ss-q-short" id="entry_588579808" dir="auto">
+          </div>
+        </div>
+      </div>
+
+      <div class="errorbox-good">
+        <div dir="ltr" class="ss-item  ss-text">
+          <div class="ss-form-entry">
+            <label class="ss-q-item-label" for="entry_1998834443">
+              <div class="ss-q-title">Your link (optionally submit a link that will appear next to you name)</div>
+              <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+            </label>
+            <input type="text" name="entry.1998834443" value="" class="ss-q-short" id="entry_1998834443" dir="auto">
+          </div>
+        </div>
+      </div>
+
+      <input type="hidden" name="draftResponse" value="[]
+        ">
+      <input type="hidden" name="pageHistory" value="0">
+      <div class="ss-item ss-navigate">
+        <div class="ss-form-entry">
+          <input type="submit" name="submit" value="Submit &#9656;" id="ss-submit" class="btn submit">
+          <div class="ss-secondary-text"></div>
+        </div>
+      </div>
+    </form>
+
+    <hr>
+
+    <h2 class="sub-title">About</h2>
+
+    <p>This project was created by <a href="https://twitter.com/M6_D6">Mark</a> for the <a href="">Women Of the World hackathon 2013</a>.</p>
+
+    <p>You can find the project on Github <a href="https://github.com/markdurrant/What_is_feminism">here</a>.</p>
+
+  </div> <!-- end .wrap -->
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/lib/fittext.js"></script>

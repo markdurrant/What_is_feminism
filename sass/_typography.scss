@@ -1,7 +1,7 @@
 //===============================================================================
 // §TYPOGRAPHY
 //===============================================================================
-%type_body{ 
+%type-body{ 
   font-size: 1.125em;
   font-family: $body-font;
   line-height: 1.4;
@@ -28,12 +28,12 @@ h1{
 
 h2{
   margin-bottom: (.6em / 1.5);
-  line-height: 1.2666;
+  line-height: 1.2;
 }
 
 h3{
   margin-bottom: (.6em / 1.17);
-  line-height: 1.3333;
+  line-height: 1.2;
 }
 
 ol{
@@ -89,4 +89,14 @@ hr{
   margin: 2em 0;
   border: 0;
   border-top: 1px dashed $ink;
+}
+
+textarea,
+input[type="text"]{
+  width: 100%;
+  border: 0;
+  background: darken($paper, 10);
+  margin: .3em 0 1.25em;
+
+  @include border-radius(0);
 }
