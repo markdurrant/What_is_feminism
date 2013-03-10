@@ -429,61 +429,75 @@ pre {
 }
 
 /* line 24, ../sass/_typography.scss */
+p {
+  margin: 0 0 .8em 0;
+}
+
+/* line 28, ../sass/_typography.scss */
 h1 {
   margin-bottom: 0.3em;
   line-height: 1.2;
 }
 
-/* line 29, ../sass/_typography.scss */
+/* line 33, ../sass/_typography.scss */
 h2 {
   margin-bottom: 0.4em;
   line-height: 1.2;
 }
 
-/* line 34, ../sass/_typography.scss */
+/* line 38, ../sass/_typography.scss */
 h3 {
   margin-bottom: 0.51282em;
   line-height: 1.2;
 }
 
-/* line 39, ../sass/_typography.scss */
+/* line 43, ../sass/_typography.scss */
 ol {
   padding-left: 1.4em;
 }
 
-/* line 43, ../sass/_typography.scss */
+/* line 47, ../sass/_typography.scss */
 ul {
   padding: 0;
   list-style: none;
 }
 
-/* line 48, ../sass/_typography.scss */
+/* line 52, ../sass/_typography.scss */
 a {
   color: #0e0d0b;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0e0d0b), color-stop(100%, #0e0d0b));
+  background-image: -webkit-linear-gradient(#0e0d0b, #0e0d0b);
+  background-image: -moz-linear-gradient(#0e0d0b, #0e0d0b);
+  background-image: -o-linear-gradient(#0e0d0b, #0e0d0b);
+  background-image: linear-gradient(#0e0d0b, #0e0d0b);
+  background-size: 100% .2em;
+  background-repeat: no-repeat;
+  background-position: 0 1.15em;
 }
-/* line 51, ../sass/_typography.scss */
+/* line 61, ../sass/_typography.scss */
 a:hover {
-  color: black;
+  background-color: #e6e6e6;
 }
 
-/* line 56, ../sass/_typography.scss */
+/* line 66, ../sass/_typography.scss */
 blockquote {
   margin: 0;
   padding: 0 2em;
   border-left: 0.2em solid #0e0d0b;
   font-style: italic;
 }
-/* line 62, ../sass/_typography.scss */
+/* line 72, ../sass/_typography.scss */
 blockquote p:before {
   margin: 0 0.2em 0 -0.6em;
   content: "“";
 }
-/* line 67, ../sass/_typography.scss */
+/* line 77, ../sass/_typography.scss */
 blockquote p:after {
   content: "”";
 }
 
-/* line 72, ../sass/_typography.scss */
+/* line 82, ../sass/_typography.scss */
 p code {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -495,7 +509,7 @@ p code {
   background-color: #f2f2f2;
 }
 
-/* line 80, ../sass/_typography.scss */
+/* line 90, ../sass/_typography.scss */
 pre {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -507,14 +521,14 @@ pre {
   color: white;
 }
 
-/* line 88, ../sass/_typography.scss */
+/* line 98, ../sass/_typography.scss */
 hr {
   margin: 2em 0;
   border: 0;
   border-top: 1px dashed #0e0d0b;
 }
 
-/* line 95, ../sass/_typography.scss */
+/* line 105, ../sass/_typography.scss */
 textarea,
 input[type="text"] {
   width: 100%;
@@ -643,39 +657,40 @@ body {
 .f-is:before, .f-is:after {
   font-size: 1.5em;
   display: inline-block;
-  line-height: .5;
+  line-height: 1;
   color: #0e0d0b;
+  position: absolute;
 }
-/* line 129, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 .f-is:before {
   content: "“";
   margin: 0 0.1em 0 -0.5em;
 }
-/* line 134, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 .f-is:after {
   content: "”";
   margin: 0 0 0 .1em;
 }
 
-/* line 141, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 .name,
 .linky {
   font-style: italic;
-  font-weight: bold;
 }
 
-/* line 146, ../sass/styles.scss */
+/* line 147, ../sass/styles.scss */
 .name {
   display: inline;
   margin-right: .75em;
+  font-weight: bold;
 }
 
-/* line 153, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .linky:after {
   content: " »";
 }
 
-/* line 159, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 .more,
 .submit {
   float: right;
@@ -683,22 +698,22 @@ body {
   letter-spacing: .05em;
 }
 
-/* line 165, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 .more {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
-/* line 169, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .sub-title {
   font-size: 1.3em;
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 .ss-base-body {
   display: none !important;
 }
 
-/* line 177, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 form {
   margin-bottom: 4em;
 }

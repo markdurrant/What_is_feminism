@@ -122,8 +122,9 @@ body{
   &:after{
     font-size: 1.5em;
     display: inline-block;
-    line-height: .5;
+    line-height: 1;
     color: $brand;
+    position: absolute;
   }
 
   &:before{
@@ -140,12 +141,13 @@ body{
 .name,
 .linky{
   font-style: italic;
-  font-weight: bold;
+  //font-weight: bold;
 }
 
 .name{
   display: inline;
   margin-right: .75em;
+  font-weight: bold;
 }
 
 .linky{
@@ -163,7 +165,7 @@ body{
 }
 
 .more{
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 .sub-title{

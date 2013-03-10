@@ -21,6 +21,10 @@ pre{
   margin: 0 0 .6em 0;
 }
 
+p{
+  margin: 0 0 .8em 0; 
+}
+
 h1{
   margin-bottom: (.6em / 2);
   line-height: 1.2;
@@ -47,9 +51,15 @@ ul{
 
 a{
   color: $link-color;
+  text-decoration: none;
+
+  @include background-image(linear-gradient($ink,$ink));
+  background-size: 100% .2em;
+  background-repeat: no-repeat;
+  background-position: 0 1.15em;
 
   &:hover{
-    color: $link-hover-color;  
+    background-color: darken($paper, 10);
   }
 }
 

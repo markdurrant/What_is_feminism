@@ -13,7 +13,7 @@
   <!-- livereload -->
 
   <script>
-    // document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
   </script> 
 
 </head>
@@ -55,7 +55,14 @@
 
 
     <!-- google form output -->
-    <form action="https://docs.google.com/forms/d/1-zsnC4_h3kRfJMjNEiDtDbNZmsSz-5aQQGcvdYp0HLg/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<!--     <form action="https://docs.google.com/forms/d/1-zsnC4_h3kRfJMjNEiDtDbNZmsSz-5aQQGcvdYp0HLg/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""> -->
+
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe"
+    style="display:none;" onload="if(submitted)
+    {window.location='thanks.html';}"></iframe>
+    <form action="https://docs.google.com/forms/d/1-zsnC4_h3kRfJMjNEiDtDbNZmsSz-5aQQGcvdYp0HLg/formResponse" method="post"
+    target="hidden_iframe" onsubmit="submitted=true;">
 
       <div class="errorbox-good">
         <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
@@ -110,7 +117,7 @@
 
     <h2 class="sub-title">About</h2>
 
-    <p>This project was created by <a href="https://twitter.com/M6_D6">Mark</a> for the <a href="">Women Of the World hackathon 2013</a>.</p>
+    <p>This project was created by <a href="https://twitter.com/M6_D6">Mark</a> for the Women Of the World hackathon 2013 by <a href="http://rewiredstate.org/">Rewired State</a> in collaboration with the <a href="http://wow.southbankcentre.co.uk/">Women Of the World festival 2013</a>.</p>
 
     <p>You can find the project on Github <a href="https://github.com/markdurrant/What_is_feminism">here</a>.</p>
 
