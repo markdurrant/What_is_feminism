@@ -1,7 +1,7 @@
 # Feminism is…
 
 ## Exploring notions of feminism by asking the simple question, feminism is?
-## Produced as part of the WOW hackathon in conjunction with the Women Of the World festival 2013 
+Produced as part of the WOW hackathon in conjunction with the Women Of the World festival 2013 
 
 A very simple site. Reads the quotes from a json file and outputs the results. Responses are capture by a Google form. Styling is Sass
 
