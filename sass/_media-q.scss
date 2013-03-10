@@ -1,0 +1,36 @@
+//===============================================================================
+// §MEDIA QUERIES
+//===============================================================================
+@media all and (min-width: 24em){
+  body{
+    padding-top: 4.5em;
+  }
+}
+
+@media all and (min-width: 544px){
+  body{
+    padding-top: 5.5em;
+  }
+
+  .f-is{
+    font-size: 1.1em;
+  }
+}
+
+@media all and (min-width: 674px){
+  body{
+    padding-top: 7.5em;
+  }
+
+  .f-is{
+    font-size: 1.2em;
+  }
+
+  .sub-head .inner-wrap{
+    padding-right: 3em;
+  }
+
+  a{
+   background-position: 0 1.1em;
+  }
+}

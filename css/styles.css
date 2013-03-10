@@ -568,40 +568,40 @@ input[type="text"] {
   background-color: black;
 }
 
-/* line 33, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .text-list {
   list-style: disc;
   padding-left: 1em;
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 52, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 body {
   background-color: white;
   color: #0e0d0b;
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 html,
 body {
   height: 100%;
   margin: 0;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .site-header {
   padding: .5em 0 .6em;
   line-height: 1;
@@ -613,47 +613,47 @@ body {
   z-index: 999;
 }
 
-/* line 80, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 .title {
   margin: 0;
   color: white;
 }
 
-/* line 85, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .sub-head {
   font-size: .75em;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  color: white;
-  background: #0e0d0b;
+  color: #8c7d73;
+  background: #f2f2f2;
   font-style: italic;
   padding: 2em 0 1em;
 }
-/* line 94, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .sub-head h2,
 .sub-head h3 {
   font-weight: normal;
 }
-/* line 98, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 .sub-head h2 {
   margin-bottom: 1em;
 }
-/* line 102, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .sub-head .inner-wrap {
   max-width: 50.654em;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .f-is-list {
   margin: 2em 0;
   position: relative;
 }
 
-/* line 115, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .f-is {
   font-style: italic;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
-/* line 122, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .f-is:before, .f-is:after {
   font-size: 1.5em;
   display: inline-block;
@@ -661,36 +661,36 @@ body {
   color: #0e0d0b;
   position: absolute;
 }
-/* line 130, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 .f-is:before {
   content: "“";
   margin: 0 0.1em 0 -0.5em;
 }
-/* line 135, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 .f-is:after {
   content: "”";
   margin: 0 0 0 .1em;
 }
 
-/* line 142, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 .name,
 .linky {
   font-style: italic;
 }
 
-/* line 147, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
 .name {
   display: inline;
   margin-right: .75em;
   font-weight: bold;
 }
 
-/* line 155, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 .linky:after {
   content: " »";
 }
 
-/* line 161, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 .more,
 .submit {
   float: right;
@@ -698,22 +698,61 @@ body {
   letter-spacing: .05em;
 }
 
-/* line 167, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .more {
   margin-bottom: 2em;
 }
 
-/* line 171, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 .sub-title {
   font-size: 1.3em;
 }
 
-/* line 175, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 .ss-base-body {
   display: none !important;
 }
 
-/* line 179, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 form {
   margin-bottom: 4em;
+}
+
+@media all and (min-width: 24em) {
+  /* line 5, ../sass/_media-q.scss */
+  body {
+    padding-top: 4.5em;
+  }
+}
+@media all and (min-width: 544px) {
+  /* line 11, ../sass/_media-q.scss */
+  body {
+    padding-top: 5.5em;
+  }
+
+  /* line 15, ../sass/_media-q.scss */
+  .f-is {
+    font-size: 1.1em;
+  }
+}
+@media all and (min-width: 674px) {
+  /* line 21, ../sass/_media-q.scss */
+  body {
+    padding-top: 7.5em;
+  }
+
+  /* line 25, ../sass/_media-q.scss */
+  .f-is {
+    font-size: 1.2em;
+  }
+
+  /* line 29, ../sass/_media-q.scss */
+  .sub-head .inner-wrap {
+    padding-right: 3em;
+  }
+
+  /* line 33, ../sass/_media-q.scss */
+  a {
+    background-position: 0 1.1em;
+  }
 }

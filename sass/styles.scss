@@ -23,6 +23,7 @@ $footer: hsl(0, 0, 90);
 @import "_typography.scss";
 @import "_buttons.scss";
 
+
 //===============================================================================
 // §MIXINS
 //===============================================================================
@@ -85,8 +86,8 @@ body{
 .sub-head{
   font-size: .75em;
   font-family: $quote-font;
-  color: $paper;
-  background: $ink;
+  color: lighten($ink, 45);
+  background: darken($paper, 5);
   font-style: italic;
   padding: 2em 0 1em; 
 
@@ -114,8 +115,6 @@ body{
 
 .f-is{
   font-style: italic;
-  // font-size: 1.1em;
-  // line-height: 1.3;
   font-family: $quote-font;
 
   &:before,
@@ -179,3 +178,7 @@ body{
 form{
   margin-bottom: 4em;
 }
+
+
+
+@import "_media-q.scss";
