@@ -464,13 +464,13 @@ ul {
 
 /* line 52, ../sass/_typography.scss */
 a {
-  color: #0e0d0b;
+  color: #0d1526;
   text-decoration: none;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0e0d0b), color-stop(100%, #0e0d0b));
-  background-image: -webkit-linear-gradient(#0e0d0b, #0e0d0b);
-  background-image: -moz-linear-gradient(#0e0d0b, #0e0d0b);
-  background-image: -o-linear-gradient(#0e0d0b, #0e0d0b);
-  background-image: linear-gradient(#0e0d0b, #0e0d0b);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d1526), color-stop(100%, #0d1526));
+  background-image: -webkit-linear-gradient(#0d1526, #0d1526);
+  background-image: -moz-linear-gradient(#0d1526, #0d1526);
+  background-image: -o-linear-gradient(#0d1526, #0d1526);
+  background-image: linear-gradient(#0d1526, #0d1526);
   background-size: 100% .2em;
   background-repeat: no-repeat;
   background-position: 0 1.15em;
@@ -484,7 +484,7 @@ a:hover {
 blockquote {
   margin: 0;
   padding: 0 2em;
-  border-left: 0.2em solid #0e0d0b;
+  border-left: 0.2em solid #0d1526;
   font-style: italic;
 }
 /* line 72, ../sass/_typography.scss */
@@ -517,7 +517,7 @@ pre {
   -o-border-radius: 0.2em;
   border-radius: 0.2em;
   padding: .85em 1.05em;
-  background-color: #463f39;
+  background-color: #264073;
   color: white;
 }
 
@@ -525,7 +525,7 @@ pre {
 hr {
   margin: 2em 0;
   border: 0;
-  border-top: 1px dashed #0e0d0b;
+  border-top: 1px dashed #0d1526;
 }
 
 /* line 105, ../sass/_typography.scss */
@@ -552,7 +552,7 @@ input[type="text"] {
   display: inline-block;
   padding: .4em .4em .45em .6em;
   border: 0;
-  background-color: #0e0d0b;
+  background-color: #0d1526;
   color: white;
   text-decoration: none;
   font-weight: normal;
@@ -560,7 +560,7 @@ input[type="text"] {
 }
 /* line 16, ../sass/_buttons.scss */
 .btn:hover {
-  background-color: black;
+  background-color: #03050a;
   color: white;
 }
 /* line 21, ../sass/_buttons.scss */
@@ -591,7 +591,7 @@ input[type="text"] {
 /* line 53, ../sass/styles.scss */
 body {
   background-color: white;
-  color: #0e0d0b;
+  color: #0d1526;
 }
 
 /* line 62, ../sass/styles.scss */
@@ -606,7 +606,7 @@ body {
   padding: .5em 0 .6em;
   line-height: 1;
   color: white;
-  background: #0e0d0b;
+  background: #0d1526;
   position: fixed;
   top: 0;
   width: 100%;
@@ -623,7 +623,7 @@ body {
 .sub-head {
   font-size: .75em;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  color: #8c7d73;
+  color: #737373;
   background: #f2f2f2;
   font-style: italic;
   padding: 2em 0 1em;
@@ -658,7 +658,7 @@ body {
   font-size: 1.5em;
   display: inline-block;
   line-height: 1;
-  color: #0e0d0b;
+  color: #0d1526;
   position: absolute;
 }
 /* line 129, ../sass/styles.scss */

@@ -2,7 +2,7 @@
 // §VARIABLES
 //===============================================================================
 $paper: hsl(0, 0, 100);
-$ink: hsl(25, 10, 5);
+$ink: hsl(220, 50, 10);
 $brand: $ink;
 
 $body-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -86,7 +86,7 @@ body{
 .sub-head{
   font-size: .75em;
   font-family: $quote-font;
-  color: lighten($ink, 45);
+  color: darken($paper, 55);
   background: darken($paper, 5);
   font-style: italic;
   padding: 2em 0 1em; 
